@@ -1,0 +1,255 @@
+
+header{
+    background-color: antiquewhite;
+}
+.navber-primary{
+   background-color: rgb(242, 249, 255);
+   padding: 15px 50px;
+   border-radius: 5px;
+ margin: 50px;
+ font-size: 1.3rem;
+ padding-left: 100px;
+ border: none;
+ outline: none;
+ 
+}
+/*sheard color*/
+.title-container{
+    font-size: 4rem;
+}
+.head-description{
+    color: #757474;
+    font-size: 1rem;
+}
+.btn-primary1{
+    padding: 15px 20px;
+    background-color: #E55473;
+    color: white;
+    font-weight: 700;
+    border: none;
+    margin-left: -45px;
+    font-size: 1.3rem;
+}
+.btn-primary{
+    color: white;
+    background-color:#E55473;
+    padding: 15px 70px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    margin-right: -50px;
+    font-weight: 700;
+}
+/*sheard end*/
+.header-tital{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 200px;
+}
+.header-container{
+   
+    max-width: 540px;
+}
+.flower{
+    padding-right: 60px;
+}
+
+/* main start*/
+.section-featured{
+  
+    max-width: 1300px;
+    margin: auto;
+}
+.head-discrip{
+    color: #474747;
+    margin-top: -35px;
+}
+.Featured-container{
+ display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.Featured-title{
+    font-size: 3.8rem; 
+   text-align: center;
+}
+.long-description{
+ max-width: 520px;
+    margin-top: -10px;
+   text-align: center;
+}
+.flower-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin: 30px;   
+}
+.img-head1{
+    background-color: rgb(169, 242, 255);
+   text-align: center;
+  width: 30%;
+  padding: 50px;
+
+}
+/* .img-head1 img{
+    width: 100%; */
+
+.img-head2{
+    background-color: rosybrown;
+    text-align: center;
+    padding: 50px;
+  
+  width: 30%;
+}
+/* .img-head2 img{
+    width: 100%;
+} */
+.img-head3{
+    background-color: pink;
+    text-align: center;
+    width: 30%;
+    padding: 50px;
+}
+/*section-icon*/
+.icon-fast{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+   background-color: rgb(163, 159, 159);
+   margin-top: 100px;
+   width: 100%;
+   border-radius: 10px;
+}
+.icon-title{
+text-align: center;
+padding: 70px;
+}
+ .head-same{
+    color: #3b3939;
+ }  
+/*section deal*/
+.section-deal{
+    background-color: #ffe7ec;
+    padding: 30px;
+    margin-top: 30px;
+}
+.section-contract{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 40px;
+    
+}
+.section-title{
+   max-width: 540px;
+   margin: 0 auto;
+}
+span{
+    color: rgb(224, 44, 104);
+}
+.section-picture{
+    padding-right: 300px;
+}
+.instragram-container{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.section-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.section{
+  background-image: url(img/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  background-size: 80%;
+  margin-top: 90px;
+  padding: 30px;
+}
+.last-div{
+    padding: 20px;
+}
+.last-divition{
+  
+}
+.last-input{
+    background-color: white;
+    padding: 12px 150px;
+    border-radius: 5px;
+    
+}
+.footer-last{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-head{
+    color: white;
+}
+.btn-primary:hover, .btn-primary1:hover{
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    transition: all ease-in-out 0.5s;
+    padding: 15px 90px;
+}
+
+
+/*media quere*/
+@media screen and (max-width: 576px) {
+    .header-tital, .flower-main, .icon-fast, .section-contract, .section-img{
+        flex-direction: column;
+    }
+    .img-head1, .img-head2, .img-head3, .footer-last, .Featured-title, .head-description{
+        width: 100%;
+    }
+    .navber-primary{
+        width: 70%;
+    }
+    .last-input{
+        padding: 9px 40px;
+    }
+    .section-picture{
+        padding: 0;
+    }
+    .btn-primary{
+        margin: 0;
+        padding: 9px 20px;
+    }
+    .btn-primary1{
+        width: 40%;
+              margin-top: -50px;
+        margin-left: 50px;
+        border: 1px solid blue;
+    }
+}
+/* tablet media*/
+@media screen and (min-width: 576px) and (max-width: 990px) {
+    .header-tital, .flower-main, .icon-fast, .section-img{
+        flex-direction: column;
+       
+}
+.img-head1, .img-head2, .img-head3, .section, .footer-last{
+    width: 100%;
+}
+.section-picture{
+    padding-left:  70px;
+}
+.last-input{
+ padding: 9px 30px;
+}
+.btn-primary{
+    padding: 9px 20px;
+}
+}
