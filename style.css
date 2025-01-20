@@ -98,14 +98,18 @@ header{
     grid-template-columns: repeat(3, 1fr);
    gap: 30px;
    padding-top: 24px;
+   background-color: #fffefe
  ;
    
 }
 .img-fast{
-    background-color: aqua;
+    background-color: rgb(160, 255, 255);
     border-radius: 1000px 1000px 0px 0px;
-    
     padding: 90px 30px 0 40px;
+}
+.img-fast:hover{
+    background-color: rgb(0, 255, 170);
+    padding: 120px 50px 0 40px;
 }
 h4 a{
     font-size: 1.5rem;
@@ -116,13 +120,20 @@ h4 a{
     border-radius: 1000px 1000px 0px 0px;
     padding: 90px 30px 0 40px;
 }
+.img-secend:hover{
+    background-color: rgb(255, 108, 230);
+    padding: 120px 50px 0 40px;}
 .img-three{
     background-color: rgb(233, 255, 31);
     padding: 90px 30px 0 40px;
     border-radius: 1000px 1000px 0px 0px;
 }
+.img-three:hover{
+    background-color: rgb(168, 255, 27);
+    padding: 120px 50px 0 40px;}
+
 .img-head1, .img-head2, .img-head3{
-   
+    
    text-align: center;
  }
  .inistragram{
@@ -189,6 +200,7 @@ span{
     align-items: center;
     gap: 24px;
     padding: 50px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
 }
 .section{
   background-image: url(img/Rectangle\ 9.png);
@@ -231,14 +243,22 @@ span{
 
 /*media quere*/
 @media screen and (max-width: 576px) {
-    .header-tital, .flower-main, .icon-fast, .section-contract, .section-img{
+    .header-tital,  .icon-fast, .section-contract, .section-img{
         flex-direction: column;
     }
-    .img-head1, .img-head2, .img-head3, .footer-last, .Featured-title, .head-description{
+    .img-head1, .img-head2, .img-head3, 
+    .footer-last, .Featured-title, .head-description, .flower
+    {
         width: 100%;
+    }
+    .header-container{
+        margin-right: 150px;
     }
     .navber-primary{
         width: 70%;
+    }
+    .flower-main{
+        grid-template-columns: repeat(1, 1fr);
     }
     .last-input{
         padding: 9px 40px;
@@ -256,6 +276,25 @@ span{
         margin-left: 50px;
         border: 1px solid blue;
     }
+    .Featured-title {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .head-discrip{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .last-input {
+        padding: 5px 15px;
+    }
+    .btn-primary{
+        padding: 5px 12px;
+    }
+    .section{
+     background-image: url(img/Rectangle\ 9.png);
+     background-size: 100%;
+     background-position: 100%, 800px;
+    }
 }
 /* tablet media*/
 @media screen and (min-width: 576px) and (max-width: 990px) {
@@ -269,10 +308,14 @@ span{
 .section-picture{
     padding-left:  70px;
 }
+
+}
 .last-input{
  padding: 9px 30px;
 }
 .btn-primary{
     padding: 9px 20px;
 }
+.main-input{
+    margin-top: -30px;
 }
