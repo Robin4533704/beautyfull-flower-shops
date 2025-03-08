@@ -8,7 +8,7 @@ header{
    border-radius: 5px;
  margin: 50px;
  font-size: 1.3rem;
- padding-left: 100px;
+ /* padding-left: 100px; */
  border: none;
  outline: none;
  
@@ -289,11 +289,9 @@ span{
         margin-top: 12px;
     }
     .btn-primary1{
-        width: 40%;
-              margin-top: -50px;
-        margin-left: 50px;
-        border: 1px solid blue;
+        margin-left: 130px;
     }
+  .navber-primary
     .Featured-title {
         font-size: 40px;
        
